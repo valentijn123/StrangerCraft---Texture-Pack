@@ -1,0 +1,24 @@
+{
+    "__comment": "String model created by Bluecolty for the Harkenburg Texture Pack",
+"ambientocclusion": false,
+    "textures": {
+        "particle": "blocks/blocks/block/trip_wire",
+        "0": "block/tripwire"
+    },
+    "elements": [
+        {
+            "name": "string_model",
+            "from": [ 13.45, -2.9802322387695312E-8, 2.099999986588955 ], 
+            "to": [ 13.799999982118607, 0.3999999612569809, 13.899999968707561 ], 
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 1.0, 0.3999999910593033, 1.3999999910593033 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.8, 15.999999976158138, 2.799999991059302 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 1.0, 0.3999999910593033, 1.3999999910593033 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.7999999999999999, 15.999999976158138, 2.7999999910593036 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 6.0, 15.9999999910593, 4.99999997615814 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 6.0, 15.9999999910593, 4.9999999761581435 ] }
+            }
+        }
+    ]
+}

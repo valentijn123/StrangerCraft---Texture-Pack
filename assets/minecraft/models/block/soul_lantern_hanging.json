@@ -1,0 +1,61 @@
+{
+	"__comment": "Celing Lightbulb model created by Bluecolty for the Harkenburg Texture Pack",
+	"textures": {
+		"0": "block/soul_fire_lantern_model",
+		"particle": "block/soul_fire_lantern_model"
+	},
+	"elements": [
+		{
+			"name": "bulb base",
+			"from": [4, 15, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [8, 6, 16, 7], "texture": "#0"},
+				"east": {"uv": [8, 6, 16, 7], "texture": "#0"},
+				"south": {"uv": [8, 6, 16, 7], "texture": "#0"},
+				"west": {"uv": [8, 6, 16, 7], "texture": "#0"},
+				"up": {"uv": [0, 8, 8, 16], "texture": "#0"},
+				"down": {"uv": [0, 8, 8, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "bulb base bottom",
+			"from": [5, 14, 5],
+			"to": [11, 15, 11],
+			"faces": {
+				"north": {"uv": [9, 4, 15, 5], "texture": "#0"},
+				"east": {"uv": [9, 4, 15, 5], "texture": "#0"},
+				"south": {"uv": [9, 4, 15, 5], "texture": "#0"},
+				"west": {"uv": [9, 4, 15, 5], "texture": "#0"},
+				"up": {"uv": [10, 10, 16, 16], "texture": "#0"},
+				"down": {"uv": [10, 10, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "light stem",
+			"from": [7, 13, 7],
+			"to": [9, 14, 9],
+			"faces": {
+				"north": {"uv": [5, 1, 7, 2], "texture": "#0"},
+				"east": {"uv": [5, 1, 7, 2], "texture": "#0"},
+				"south": {"uv": [5, 1, 7, 2], "texture": "#0"},
+				"west": {"uv": [5, 1, 7, 2], "texture": "#0"},
+				"up": {"uv": [5, 3, 7, 5], "texture": "#0"},
+				"down": {"uv": [5, 3, 7, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "light body top",
+			"from": [6, 7, 6],
+			"to": [10, 13, 10],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 6], "texture": "#0"},
+				"east": {"uv": [0, 0, 4, 6], "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 6], "texture": "#0"},
+				"west": {"uv": [0, 0, 4, 6], "texture": "#0"},
+				"up": {"uv": [12, 0, 16, 4], "texture": "#0"},
+				"down": {"uv": [12, 0, 16, 4], "texture": "#0"}
+			}
+		}
+	]
+}
